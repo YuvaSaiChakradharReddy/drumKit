@@ -1,0 +1,45 @@
+<%- include('header.ejs') %>
+
+    <body>
+        <div class="drumkit-container">
+            <h1 class="title" id="title">DRUM KIT 🥁</h1>
+            <div class="set">
+                <button class="s drum" data-sound="s">
+                    <img src="/images/tom3.png" alt="Tom 3" />
+                    <span>s</span>
+                </button>
+                <button class="d drum" data-sound="d">
+                    <img src="/images/tom4.png" alt="Tom 4" />
+                    <span>d</span>
+                </button>
+                <button class="f drum" data-sound="f">
+                    <img src="/images/tom2.png" alt="Tom 2" />
+                    <span>f</span>
+                </button>
+                <button class="h drum" data-sound="h">
+                    <img src="/images/tom1.png" alt="Tom 1" />
+                    <span>h</span>
+                </button>
+
+
+                <button class="j drum" data-sound="j">
+                    <img src="/images/crash.png" alt="Crash" />
+                    <span>j</span>
+                </button>
+                <button class="k drum" data-sound="k">
+                    <img src="/images/kick.png" alt="Kick" />
+                    <span>k</span>
+                </button>
+                <button class="l drum" data-sound="l">
+                    <img src="/images/snare.png" alt="Snare" />
+                    <span>l</span>
+                </button>
+            </div>
+        </div>
+        <%- include('footer.ejs') %>
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+            <script src="/js/drum.js"></script>
+
+    </body>
+
+    </html>
